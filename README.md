@@ -9,11 +9,12 @@ If initial state is S4 then,		1111 0110 0101 1001 -> 1111 1111 0101 1101
 
 An Example test run of the circuit,using the testbench :
 
-Stage1) Saving the 20 bit input. The testbench "tb_filter.vhd" specifies an input of 0110 1101 1011 0110 1101 , one bit per clock cycle. This is stored in the "RAM" of the circuit
+Stage1) Saving the 20 bit input. The testbench "tb_filter.vhd" specifies an input of 0110 1101 1011 0110 1101 , one bit per clock cycle. This is stored in the "RAM" of the circuit (file 5-テスト格納.png)
 
 ![alt text](https://raw.githubusercontent.com/parthnan/Filter-Circuit-in-VHDL/master/5-テスト格納.png)
 
 Stage2) Outputting the 20 bit output , one bit by one bit. Final answer on the rightmost flank = 0010 1111 1111 1111 1111
+ (file 5-テスト出力.png)
 
 ![alt text](https://raw.githubusercontent.com/parthnan/Filter-Circuit-in-VHDL/master/5-テスト出力.png)
 
