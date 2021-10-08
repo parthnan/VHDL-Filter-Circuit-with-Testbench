@@ -1,4 +1,4 @@
-# Filter Circuit in VHDL
+# Digital Filter Circuit in VHDL
 Project on Implementation of simple State transition to create a Digital Filter circuit. Input and output are 20 bit numbers, entered by hand on an FPGA board(or via the simulator, using testbench "tb_filter.vhd"). State transition diagram as shown:
 
 ![alt text](https://raw.githubusercontent.com/parthnan/VHDL-Filter-Circuit-with-Testbench/master/trans.png)
